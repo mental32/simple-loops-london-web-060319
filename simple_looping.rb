@@ -51,6 +51,7 @@ def until_iterator(number_of_times)
 
   until n == number_of_times do
     puts phrase
+    n += 1
   end
 end
 
